@@ -77,7 +77,6 @@ if 'rosco_data' not in st.session_state:
         {"letra": "Y", "tipo": "Contiene", "pista": "colaboración y alianzas internacionales para lograr las metas.", "palabra": "AYUDA", "ods": "ODS 17: Alianzas para lograr los Objetivos"},
         {"letra": "Z", "tipo": "Comienza con", "pista": "espacio geográfico afectado por conflictos donde se debe restaurar la paz.", "palabra": "ZONA", "ods": "ODS 16: Paz, Justicia e Instituciones Sólidas"}
     ]
-
 # --- SESSION STATE ---
 if 'index' not in st.session_state: st.session_state.index = 0
 if 'resultados' not in st.session_state: st.session_state.resultados = {}
